@@ -3,6 +3,11 @@ body {
     margin: 0;
     background-color: #15998E;
     font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 200px;
+    
     
 }
 
@@ -11,14 +16,27 @@ body {
 
 }
 
-a {
+.links a {
     text-decoration: none;
     color: black;
+    
 
 }
 
-li {
-    list-style: none;
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
     
 }
+
+main {
+    background-image: url(./img/sea-g10540b369_1280.jpg);
+}
+
+
+
+
+
 

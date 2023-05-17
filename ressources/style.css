@@ -70,7 +70,23 @@ li {
 }
 
 
+@media only screen and (max-width: 500px) {
+    .introduction {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
 
+    .links {
+        font-size: 15px;
+        padding: 5px;
+        
+    }
+    
+
+}
 
 
 

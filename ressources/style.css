@@ -1,12 +1,12 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #15998E;
+    
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 200px;
+    
     
     
 }
@@ -27,13 +27,37 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 22px;
+    padding: 10px;
     
 }
 
 main {
-    background-image: url(./img/sea-g10540b369_1280.jpg);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-image: url(./img/sea);
+    
+
 }
+
+.introduction {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 10000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+
 
 
 

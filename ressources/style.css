@@ -1,1 +1,24 @@
-CSS Style
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #15998E;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.logo {
+    width: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+li {
+    list-style: none;
+    
+}
+

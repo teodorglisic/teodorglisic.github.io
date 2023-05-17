@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    overflow: hidden;
     
     
 }
@@ -16,7 +16,7 @@ body {
 
 }
 
-.links a {
+ a {
     text-decoration: none;
     color: white;
     
@@ -53,12 +53,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 50px;
     
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .nav {
     margin: 0 30px;
+}
+
+li {
+    list-style: none;
 }
 
 

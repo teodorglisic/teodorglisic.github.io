@@ -74,3 +74,54 @@ h1 {
     text-shadow: 2px 2px black;
     color: white;
 }
+
+.name-small {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    body {
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .container1, .container2 {
+        flex-basis: 10%;
+    }
+    .container1 {
+        flex-grow: 0;
+    }
+
+    .container1, .container2, .linklist {
+        align-items: center;
+        flex-grow: 0;
+    }
+
+    .container2 {
+        flex-basis: 30%;
+    }
+
+    main {
+        min-height: 60vh;
+    }
+    
+
+    .linklist {
+        flex-grow: 1;
+        flex-basis: 15%;
+    }
+
+    .name-small {
+        display: block;
+    }
+
+    .name, .home {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+}
